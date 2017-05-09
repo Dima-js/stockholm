@@ -4,9 +4,13 @@
 
 @font-face {
     font-family: 'sdl_iconsregular';
-    src: url('sdlicons-regular-webfont.woff2') format('woff2'),
-         url('sdlicons-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+	src: url('SDLIcons-Regular.eot');
+	src: url('SDLIcons-Regular.eot?#iefix') format('embedded-opentype'),
+		url('SDLIcons-Regular.woff2') format('woff2'),
+		url('SDLIcons-Regular.woff') format('woff'),
+		url('SDLIcons-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
 
 }

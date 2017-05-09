@@ -4,11 +4,20 @@ http://lettersfromsweden.se/license
 */
 
 
-@font-face {font-family: 'Lab Grotesque Regular';src: url('LabGrotesque-Regular.eot');src: url('LabGrotesque-Regular.eot?#iefix') format('embedded-opentype'),url('LabGrotesque-Regular.woff') format('woff'),url('LabGrotesque-Regular.ttf') format('truetype');}
+/*@font-face {font-family: 'Lab Grotesque Regular';src: url('LabGrotesque-Regular.eot');src: url('LabGrotesque-Regular.eot?#iefix') format('embedded-opentype'),url('LabGrotesque-Regular.woff') format('woff'),url('LabGrotesque-Regular.ttf') format('truetype');}*/
  
   
 @font-face {font-family: 'Lab Grotesque Italic';src: url('LabGrotesque-Italic.eot');src: url('LabGrotesque-Italic.eot?#iefix') format('embedded-opentype'),url('LabGrotesque-Italic.woff') format('woff'),url('LabGrotesque-Italic.ttf') format('truetype');}
  
   
 @font-face {font-family: 'Lab Grotesque Bold';src: url('LabGrotesque-Bold.eot');src: url('LabGrotesque-Bold.eot?#iefix') format('embedded-opentype'),url('LabGrotesque-Bold.woff') format('woff'),url('LabGrotesque-Bold.ttf') format('truetype');}
- 
+@font-face {
+    font-family: 'Lab Grotesque Regular';
+    src: url('LabGrotesque-Regular.eot');
+    src: url('LabGrotesque-Regular.eot?#iefix') format('embedded-opentype'),
+    url('LabGrotesque-Regular.woff2') format('woff2'),
+    url('LabGrotesque-Regular.woff') format('woff'),
+    url('LabGrotesque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9ce37cfb-57e7-44a6-bf5b-0edaa670e3be" name="s" url="http://korsakov.nwdev.net">
+        <fileTransfer host="korsakov.nwdev.net" port="21" password="dfc8dfcfdf8bdfc8dfe1dffedfd3dfe0df9ddff0dffadfc2" username="c9_korsakov">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
