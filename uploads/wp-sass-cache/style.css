@@ -261,14 +261,24 @@ a.marked, a:hover, .current-menu-item a, #main-menu .current-page-ancestor a, #m
     color: black;
     text-decoration: none;
 }
+.menu{
+    display: inline-block;
+}
+.menu-menu-1-container .menu:last-child{
+    line-height: 24px;
+    font-size: 17px;
+    margin-left: 70px;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .no-underline, .no-underline a, .sdl-thumb a, .sdl-thumb, #page-cover-caption a, #nextprev-page a {
     text-decoration: none;
 }
 
-.no-underline a:hover {
-    text-decoration: underline;
-}
+/*.no-underline a:hover {*/
+    /*text-decoration: underline;*/
+/*}*/
 
 a.underline, .underline {
     text-decoration: underline;
@@ -2105,7 +2115,7 @@ input.underline:-ms-input-placeholder {
 }
 
 #wrap .col-padd-hori {
-    padding: 20px;
+    padding: 55px;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -5000,7 +5010,10 @@ input.underline:-ms-input-placeholder {
     .project-slideshow-activate {
         display: none !important;
     }
-
+    .menu-menu-1-container .menu:last-child {
+        line-height: 18px;
+        font-size: 13px;
+    }
     #pageloader {
         position: absolute !important;
         z-index: 999;
@@ -6390,7 +6403,10 @@ input.underline:-ms-input-placeholder {
     body.single-sdl_news #wrap #header #header-inner, body.post-type-archive-sdl_news #wrap #header #header-inner {
         border-bottom: 1px solid #fbd8db !important;
     }
-
+    .menu-menu-1-container .menu:last-child {
+        line-height: 18px;
+        font-size: 13px;
+    }
     .project-slideshow-activate {
         display: none !important;
     }
@@ -8432,5 +8448,18 @@ body.home .work-category-module .col:nth-child(4n+7) {
 
     body.home .work-category-module .col:nth-child(2n+3) {
         clear: both !important;
+    }
+}
+@media (max-width: 650px) {
+    .menu-menu-1-container .menu:last-child {
+        margin-left: 0px;
+        display: block;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    #wrap .col-padd-hori {
+        padding: 0px;
     }
 }
